@@ -1,2 +1,2 @@
-# govals
-Go package for validate data
+# Govals
+Govals is go package for validate data
