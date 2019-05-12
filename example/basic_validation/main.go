@@ -8,21 +8,21 @@ import (
 )
 
 func main() {
-	val, err := govals.Length(1000, 2, 10)
+	ok, err := govals.Length(1000, 2, 10)
 	if err != nil {
 		log.Println(err)
 	}
-	fmt.Println(val)
-	val2, err := govals.RuneLength("ludin nento", 20, 30)
+	fmt.Println(ok)
+	ok, err = govals.RuneLength("ludin nento", 20, 30)
 	if err != nil {
 		log.Println(err)
 	}
-	fmt.Println(val2)
+	fmt.Println(ok)
 
-	val3, err := govals.Email("ludynn77654.com")
+	ok, err = govals.Email("ludynn77654.com")
 	if err != nil {
 		log.Println(err)
 	}
-	fmt.Println(val3)
+	fmt.Println(ok)
 
 }
